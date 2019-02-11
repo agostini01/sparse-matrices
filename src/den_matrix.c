@@ -106,7 +106,7 @@ double den_distance(den_matrix_t *a, den_matrix_t *b) {
 	int i;
 	int j;
 
-	if (a->_.w != b->_.w || a->_.h != a->_.h)
+	if (a->_.w != b->_.w || a->_.h != b->_.h)
 		return INFINITY;
 
 	for (i = 0; i < a->_.h; i++) {
